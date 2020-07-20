@@ -1,0 +1,280 @@
+/**************************************************** ID Selectors ********************************************************
+*/
+
+#title {
+    background-color: #fff;
+    color: #212529;
+}
+
+
+/**************************************************** Element Selectors ***************************************************
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+/**************************************************** Class Selectors ****************************************************
+*/
+
+.container-fluid {
+    padding: 0% 15%;
+}
+
+
+/* Navigation Bar */
+
+#nav {
+   background-color: #343a40;
+}
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 5%;
+    position: relative;
+}
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.big-heading-regular {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 110%;
+    position: relative;
+    z-index: 0;
+    margin: 10%;
+    padding: 10%;
+}
+
+#title {
+    text-align: left;
+    background-color: #fff;
+}
+
+.main-title {
+    margin-top: 10%;
+}
+
+@media (max-width: 1200px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 100%;
+        right: 10%;
+
+    }
+}
+
+/* Features */
+/* #0f4c75 */
+#features {
+    background-color: #bbe1fa;
+    padding: 15% 15%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.feature-icon { 
+    color: #ef8172;
+    margin: 0;
+    position: relative;
+    transform: scale(1);
+    width: 50%;
+}
+
+.feature-icon:hover {
+    color: #e84a5f;
+}
+
+.feature-title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.feature {
+    padding: 1%;
+    
+}
+
+.feature-detail {
+    color: #1b262c;
+    font-weight: 500;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #fff ;
+    color: black;
+    padding-top: 5%;
+    
+}
+
+.client-logo {
+    transform: scale(0.25);
+    right: 5%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+}
+
+.client-image {
+    border-radius: 100%;
+    padding: 3%;
+}
+.client-title {
+    margin: 0;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.testimonial {
+    margin: 0 20%;
+    padding: 10% 0;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.testimonial_QA {
+    text-align: left;
+    padding: 5%;
+}
+.question {
+    font-weight: 600;
+}
+
+.ptr-image {
+    padding: 5%;
+}
+
+@media (max-width: 1200px) {
+    .client-logo {
+        margin-bottom:-30%;
+        margin-top: -30%;
+        right: 10%;
+    }
+
+    .ptr-image {
+        padding: 0;
+        left: -140px;
+        
+    }
+}
+/* Press */
+
+#press {
+    background-color: #ff4c68 ;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    padding: 1%;
+}
+
+/* Pricing */
+/* 
+#pricing {
+    padding: 5% 10%;
+}
+
+.price-row {
+    padding: 4% 0;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(0);
+        margin-bottom: 0%;
+        right: 0%;
+    }
+}
+
+.pricing-card-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+} */
+
+/* Call To Action */
+
+#cta {
+    background-color: #3282b8 ;
+    color: #fff;
+}
+
+.call-to-action {
+    padding: 5% 22%;
+
+}
+
+.email-button {
+    margin: 5%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #fff;
+    padding: 5%;
+}
+
+.cta-icon {
+    padding: 10%;
+    transform: scale(5);
+}
+
+#copyright {
+    padding: 1%;
+}
