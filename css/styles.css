@@ -191,13 +191,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .ptr-image {
-        margin-right: -20%;
         left: -140px;
-        padding: 0;
-        width: 80%;
-        
-        
+        transform: scale(0.75);    
     }
+    
      #title {
         text-align: center;
     }
