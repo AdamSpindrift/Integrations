@@ -189,6 +189,14 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: -30%;
         right: 10%;
     }
+    
+    .feature-detail {
+        font-size: 2rem;
+    }
+
+    .feature-title {
+        font-size: 3rem;
+    }
 
     .ptr-image {
         left: -140px;
